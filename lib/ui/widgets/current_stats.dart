@@ -20,7 +20,7 @@ class PlayOffSeriesWidget extends ConsumerWidget {
     return GestureDetector(
       onTap: () {
         currentGameStatsBottomSheet(
-            context, sportDataWatcher.sportData!.games.first);
+            context, sportDataWatcher.sportData.games.first);
       },
       child: Container(
         height: 100.h,

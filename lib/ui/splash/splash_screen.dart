@@ -22,6 +22,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
     context.read(sportsDataProvider).checkConnectivity();
+    context.read(sportsDataProvider).getSportsData();
     startTime();
   }
 
@@ -49,12 +50,6 @@ class _SplashScreenState extends State<SplashScreen> {
         return Scaffold(
           body: Center(
             child: Lottie.asset(splashLogo),
-
-            // Lottie.network(
-
-            //     "https://assets4.lottiefiles.com/packages/lf20_0hxkpskc.json"),
-
-            // Lottie.network(splashLogo),
           ),
         );
       },

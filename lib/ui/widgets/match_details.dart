@@ -58,7 +58,7 @@ class MatchDetails extends ConsumerWidget {
                       children: [
                         SizedBox(height: 5.h),
                         Text(
-                          "Period : ${sportDataWatcher.sportData!.games.first.goals[index].period}",
+                          "Period : ${sportDataWatcher.sportData.games.first.goals[index].period}",
                           style: Apptheme(context).boldText.copyWith(
                                 color: Apptheme.lightColor,
                                 fontSize: 17.sp,
@@ -80,7 +80,7 @@ class MatchDetails extends ConsumerWidget {
                                   height: 10.h,
                                 ),
                                 Text(
-                                  "${sportDataWatcher.sportData!.games.first.goals[index].team}",
+                                  "${sportDataWatcher.sportData.games.first.goals[index].team}",
                                   style: Apptheme(context).boldText.copyWith(
                                         color: Apptheme.assentColor,
                                         fontSize: 17.sp,
@@ -102,7 +102,7 @@ class MatchDetails extends ConsumerWidget {
                                   height: 10.h,
                                 ),
                                 Text(
-                                  "  ${sportDataWatcher.sportData!.games.first.goals[index].min}min :${sportDataWatcher.sportData!.games.first.goals[index].sec}sec ",
+                                  "  ${sportDataWatcher.sportData.games.first.goals[index].min}min :${sportDataWatcher.sportData.games.first.goals[index].sec}sec ",
                                   style: Apptheme(context).boldText.copyWith(
                                         color: Apptheme.lightColor,
                                         fontSize: 15.sp,
@@ -124,7 +124,7 @@ class MatchDetails extends ConsumerWidget {
                                       pageBuilder: (_, __, ___) {
                                         return AssitsDetailsPopup(
                                           assistPlayers: sportDataWatcher
-                                              .sportData!
+                                              .sportData
                                               .games
                                               .first
                                               .goals[index]
@@ -158,7 +158,7 @@ class MatchDetails extends ConsumerWidget {
                                   radius: 25.r,
                                   backgroundColor: Apptheme.backgroundColor,
                                   child: Text(
-                                    sportDataWatcher.sportData!.games.first
+                                    sportDataWatcher.sportData.games.first
                                         .goals[index].scorer.player
                                         .substring(0, 3),
                                     style: Apptheme(context).boldText.copyWith(
@@ -178,7 +178,7 @@ class MatchDetails extends ConsumerWidget {
                                       ),
                                 ),
                                 Text(
-                                  sportDataWatcher.sportData!.games.first
+                                  sportDataWatcher.sportData.games.first
                                       .goals[index].scorer.player,
                                   style: Apptheme(context).boldText.copyWith(
                                         color: Apptheme.lightColor,
@@ -192,7 +192,7 @@ class MatchDetails extends ConsumerWidget {
                         ),
                         SizedBox(height: 10.h),
                         Text(
-                          "seasonTotal  : ${sportDataWatcher.sportData!.games.first.goals[index].scorer.seasonTotal}",
+                          "seasonTotal  : ${sportDataWatcher.sportData.games.first.goals[index].scorer.seasonTotal}",
                           style: Apptheme(context).boldText.copyWith(
                                 color: Apptheme.lightColor,
                                 fontSize: 15.sp,
@@ -206,7 +206,7 @@ class MatchDetails extends ConsumerWidget {
               );
             },
             initialItemCount:
-                sportDataWatcher.sportData!.games.first.goals.length,
+                sportDataWatcher.sportData.games.first.goals.length,
           ),
         ],
       ),

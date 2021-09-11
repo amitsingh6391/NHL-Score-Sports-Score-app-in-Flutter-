@@ -41,7 +41,7 @@ See `README.md` for ways to get started.
 ## Demo
 
 
-- [APK](https://drive.google.com/file/d/1MQ4vOTk3FFVOjiOk8w2-ZBJumP88-KJc/view?usp=sharing)
+- [APK](https://drive.google.com/file/d/1ys4eNxjW6Fwc53IskT25B7yKjAkXWSVa/view?usp=sharing)
   
 ## Deployment
 
@@ -75,18 +75,8 @@ If you have any feedback, please reach out to me at amitsingh506142@gmail.com
 ## Screenshots
 
 
-1) splashScreen
-![App Screenshot](https://firebasestorage.googleapis.com/v0/b/amitsingh-396e4.appspot.com/o/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-09-11%20at%2013.37.30.png?alt=media&token=ee72e1cb-c26d-4597-b838-192bd35535dd)
 
-2) Homepage
-![](https://firebasestorage.googleapis.com/v0/b/amitsingh-396e4.appspot.com/o/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-09-11%20at%2013.37.36.png?alt=media&token=cc2b0133-1237-47df-b590-8840f71fa994)  
-3) Assits 
-![](https://firebasestorage.googleapis.com/v0/b/amitsingh-396e4.appspot.com/o/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-09-11%20at%2013.37.42.png?alt=media&token=6b8044ef-dd27-45a7-b095-570f80eeb6f5)
+![App Screenshot](https://firebasestorage.googleapis.com/v0/b/amitsingh-396e4.appspot.com/o/Untitled%20design-1.png?alt=media&token=481eab06-b941-40c2-958b-e4dd4a0dc8d2)
 
-4) Previous Game Stats.
 
-![](https://firebasestorage.googleapis.com/v0/b/amitsingh-396e4.appspot.com/o/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-09-11%20at%2013.37.47.png?alt=media&token=0874fe1e-bbdb-4ac3-b42d-5641b098bed7)
-
-5) Current Game Stats.
-
-![](https://firebasestorage.googleapis.com/v0/b/amitsingh-396e4.appspot.com/o/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-09-11%20at%2013.37.52.png?alt=media&token=6480b304-809a-41dc-92f2-555f6eb4313c)
+![](https://firebasestorage.googleapis.com/v0/b/amitsingh-396e4.appspot.com/o/Untitled%20design-2.png?alt=media&token=09fc3718-f03b-4099-9540-4714e7c4956b)  

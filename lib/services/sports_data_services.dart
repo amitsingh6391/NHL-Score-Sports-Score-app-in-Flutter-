@@ -9,7 +9,7 @@ class SportServices extends ChangeNotifier {
 
   bool networkBool = true;
 
-  SportData? sportData;
+  SportData sportData = SportData.fromJson(intialJson);
 
   getSportsData() async {
     try {
@@ -34,7 +34,7 @@ class SportServices extends ChangeNotifier {
     networkBool = await Helpers().checkNetwork();
 
     print(networkBool);
-    // return networkBool;
+
     notifyListeners();
   }
 }

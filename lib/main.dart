@@ -7,7 +7,7 @@ import 'ui/theme/apptheme.dart';
 
 void main() async {
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
-    statusBarColor: Apptheme.secondaryColor,
+    statusBarColor: Apptheme.cardColorlight,
     systemNavigationBarColor: Apptheme.backgroundColor,
   ));
   WidgetsFlutterBinding.ensureInitialized();

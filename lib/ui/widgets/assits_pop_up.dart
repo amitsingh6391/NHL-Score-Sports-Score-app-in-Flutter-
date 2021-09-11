@@ -5,7 +5,6 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:sports/core/userdp.dart';
 import 'package:sports/models/game/scorer.dart';
 import 'package:sports/ui/theme/apptheme.dart';
-import 'package:sports/utils/constants.dart';
 
 class AssitsDetailsPopup extends StatelessWidget {
   AssitsDetailsPopup({
@@ -77,7 +76,7 @@ class AssitsDetailsPopup extends StatelessWidget {
               padding: EdgeInsets.zero,
               itemBuilder: (BuildContext context, int index) {
                 return Padding(
-                  padding: EdgeInsets.fromLTRB(0, 10.h, 15.w, 0.h),
+                  padding: EdgeInsets.fromLTRB(0, 10.h, 10.w, 10.h),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [

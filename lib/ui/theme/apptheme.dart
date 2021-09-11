@@ -14,9 +14,15 @@ class Apptheme {
       Color(0xffffffff);
   static const secondaryColor = Color(0xfffdeff6);
 
-  static const cardDarkColor = Color(0xfffFED32C);
-  static const cardColorlight = Color(0xffFFF0B5);
-  static const goalsCardColor = Color(0xFFFCF3DD);
+  static const cardDarkColor =
+      // Color(0xFF1FA5A5);
+      Color(0xfffFED32C);
+  static const cardColorlight =
+      // Color(0xFF91FCFC);
+      Color(0xffFFF0B5);
+  static const goalsCardColor =
+      // Color(0xFFD5FAFA);
+      Color(0xFFFCF3DD);
 
   static const assentColor = Color(0xff101010);
 

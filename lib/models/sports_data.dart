@@ -1,5 +1,3 @@
-import 'dart:convert';
-
 import 'date.dart';
 import 'game/game.dart';
 
@@ -11,6 +9,9 @@ class SportData {
 
   Date date;
   List<Game> games;
+
+  factory SportData.empty() =>
+      SportData(date: DateTime.april as Date, games: []);
 
   factory SportData.fromJson(Map<String, dynamic> json) => SportData(
         date: Date.fromJson(json["date"]),

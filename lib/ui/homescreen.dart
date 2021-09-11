@@ -33,6 +33,7 @@ class HomeScreen extends ConsumerWidget {
     return sportDataWatcher.networkBool
         ? Scaffold(
             body: SingleChildScrollView(
+              physics: BouncingScrollPhysics(),
               child: Container(
                   child: Column(
                 children: [
@@ -76,7 +77,7 @@ class HomeScreen extends ConsumerWidget {
                         top: 125.h,
                         left: .35.sw,
                         child: Text(
-                          "Match  :   ${sportDataWatcher.sportData!.games.first.status.state}",
+                          "Match  :   ${sportDataWatcher.sportData.games.first.status.state}",
                           style: Apptheme(context).boldText.copyWith(
                                 color: Apptheme.lightColor,
                                 fontSize: 15.sp,
@@ -100,7 +101,7 @@ class HomeScreen extends ConsumerWidget {
                                   ),
                                   SizedBox(height: 5.h),
                                   Text(
-                                    "${sportDataWatcher.sportData!.games.first.teams.away.shortName}",
+                                    "${sportDataWatcher.sportData.games.first.teams.away.shortName}",
                                     style: Apptheme(context).boldText.copyWith(
                                           color: Apptheme.lightColor,
                                           fontSize: 15.sp,
@@ -113,7 +114,7 @@ class HomeScreen extends ConsumerWidget {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Text(
-                                    "${sportDataWatcher.sportData!.date.raw.toString().substring(0, 10)}",
+                                    "${sportDataWatcher.sportData.date.raw.toString().substring(0, 10)}",
                                     style: Apptheme(context).boldText.copyWith(
                                           color: Apptheme.assentColor,
                                           fontSize: 15.sp,
@@ -121,7 +122,7 @@ class HomeScreen extends ConsumerWidget {
                                   ),
                                   SizedBox(height: 5.h),
                                   Text(
-                                    "${sportDataWatcher.sportData!.date.pretty}",
+                                    "${sportDataWatcher.sportData.date.pretty}",
                                     style: Apptheme(context).boldText.copyWith(
                                           color: Apptheme.lightColor,
                                           fontSize: 15.sp,
@@ -141,7 +142,7 @@ class HomeScreen extends ConsumerWidget {
                                   ),
                                   SizedBox(height: 5.h),
                                   Text(
-                                    "${sportDataWatcher.sportData!.games.first.teams.home.shortName}",
+                                    "${sportDataWatcher.sportData.games.first.teams.home.shortName}",
                                     style: Apptheme(context).boldText.copyWith(
                                           color: Apptheme.lightColor,
                                           fontSize: 15.sp,
@@ -157,7 +158,7 @@ class HomeScreen extends ConsumerWidget {
                         top: 250.h,
                         left: .42.sw,
                         child: Text(
-                          '''${sportDataWatcher.sportData!.games.first.scores.mtl} - ${sportDataWatcher.sportData!.games.first.scores.tbl}''',
+                          '''${sportDataWatcher.sportData.games.first.scores.mtl} - ${sportDataWatcher.sportData.games.first.scores.tbl}''',
                           style: Apptheme(context).boldText.copyWith(
                                 color: Apptheme.assentColor,
                                 fontSize: 25.sp,

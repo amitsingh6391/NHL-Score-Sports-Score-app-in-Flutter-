@@ -20,7 +20,7 @@ class PregameStatsWidget extends ConsumerWidget {
     return GestureDetector(
       onTap: () {
         preGameStatsBottomSheet(
-            context, sportDataWatcher.sportData!.games.first);
+            context, sportDataWatcher.sportData.games.first);
       },
       child: Container(
         height: 100.h,
